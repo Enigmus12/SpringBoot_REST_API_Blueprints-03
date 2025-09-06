@@ -6,7 +6,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ *
+ * @author Juan David Rodriguez
+ */
 
+
+/**
+ * class representing a blueprint, which is a set of points
+ */
 public class Blueprint {
 
     private String author=null;

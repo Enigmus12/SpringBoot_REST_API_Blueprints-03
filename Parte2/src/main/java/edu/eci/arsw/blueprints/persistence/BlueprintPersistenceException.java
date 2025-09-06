@@ -7,8 +7,13 @@ package edu.eci.arsw.blueprints.persistence;
 
 /**
  *
- * @author hcadavid
+ * @author Juan David Rodriguez
  */
+
+ /**        
+  * Exception thrown when there is an issue with the persistence layer.
+  */
+  
 public class BlueprintPersistenceException extends Exception{
 
     public BlueprintPersistenceException(String message) {

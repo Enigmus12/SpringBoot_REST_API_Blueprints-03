@@ -37,4 +37,18 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <!-- Plugin para ejecutar clases con main -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>edu.eci.arsw.blueprints.App</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

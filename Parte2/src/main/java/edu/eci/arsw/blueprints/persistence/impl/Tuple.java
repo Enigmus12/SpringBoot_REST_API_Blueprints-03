@@ -2,6 +2,17 @@ package edu.eci.arsw.blueprints.persistence.impl;
 
 import java.util.Objects;
 
+/**
+ *
+ * @author Juan David Rodriguez
+ */
+
+/**
+ * Generic tuple class
+ * @param <T1> first element type
+ * @param <T2> second element type  
+ */
+
 public class Tuple<T1, T2> {
 
     T1 o1;

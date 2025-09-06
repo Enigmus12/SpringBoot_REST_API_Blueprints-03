@@ -7,8 +7,13 @@ package edu.eci.arsw.blueprints.persistence;
 
 /**
  *
- * @author hcadavid
+ * @author Juan David Rodriguez
  */
+
+/**
+ * Exception thrown when a blueprint is not found in the persistence layer.
+ */ 
+
 public class BlueprintNotFoundException extends Exception{
 
     public BlueprintNotFoundException(String message) {

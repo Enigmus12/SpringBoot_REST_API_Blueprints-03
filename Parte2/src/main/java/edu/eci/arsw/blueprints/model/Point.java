@@ -6,9 +6,13 @@
 package edu.eci.arsw.blueprints.model;
 
 /**
- *
- * @author hcadavid
+ * @author Juan David Rodriguez
  */
+
+ /**
+ * class representing a point in a plane
+ */
+
 public class Point {
    
     private int x;
